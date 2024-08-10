@@ -1,0 +1,10 @@
+body{margin: auto;}
+.blog{width: 25%;margin: 2%;border-radius:5px; padding: 1%;float: inline-start;box-shadow: 10px 10px 40px gray;height: 80%;}
+section{height: 300px;}
+.head{margin: 2px;}
+.container{background-color: aquamarine;}
+.container h1{color: blue;text-align: center;}
+.container p{text-align: justify;}
+.single{border-left: 7px solid;border-image: linear-gradient(lightsalmon, tomato);border-image-slice: 1;background-image: linear-gradient(180deg, lightblue,orange,skyblue);}
+.area{border-left: 7px solid;border-image: linear-gradient(45deg, blue,red,tomato);border-image-slice: 1;}
+.link-button{text-decoration: none;background-image: linear-gradient(45deg, lightsalmon, tomato);padding: 5px 10px;color: white;}
