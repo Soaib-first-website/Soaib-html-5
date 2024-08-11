@@ -8,3 +8,4 @@ section{height: 300px;}
 .single{border-left: 7px solid;border-image: linear-gradient(lightsalmon, tomato);border-image-slice: 1;background-image: linear-gradient(180deg, lightblue,orange,skyblue);}
 .area{border-left: 7px solid;border-image: linear-gradient(45deg, blue,red,tomato);border-image-slice: 1;}
 .link-button{text-decoration: none;background-image: linear-gradient(45deg, lightsalmon, tomato);padding: 5px 10px;color: white;}
+h1{font-weight: 800px;color: red;text-align: center;}
