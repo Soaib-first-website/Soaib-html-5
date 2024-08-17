@@ -1,14 +1,162 @@
-body{margin: auto;}
-.blog{width: 25%;margin: 2%;border-radius:5px; padding: 1%;float: inline-start;box-shadow: 10px 10px 40px gray;height: 80%;}
-section{height: 300px;margin-bottom: 20px;}
-.head{margin: 2px;}
-.container{background-color: aquamarine;}
-.container h1{color: blue;text-align: center;}
-.container p{text-align: justify;}
-.single{border-left: 7px solid;border-image: linear-gradient(lightsalmon, tomato);border-image-slice: 1;background-image: linear-gradient(180deg, lightblue,orange,skyblue);}
-.area{border-left: 7px solid;border-image: linear-gradient(45deg, blue,red,tomato);border-image-slice: 1;}
-.link-button{text-decoration: none;background-image: linear-gradient(45deg, lightsalmon, tomato);padding: 5px 10px;color: white;border-radius: 5px;}
-h1{font-weight: 800px;color: red;text-align: center;}
-li{margin-bottom: 10px;text-align: center;}
-ul{list-style-type: none;}
-.help{width: 25%; height: 100px; padding: 3%; margin: 2% 1%; float: inline-start; box-shadow: 10px 10px 40px lightcoral;background-image: linear-gradient(180deg, lightcoral, yellow, tomato);}
+/* Reset default margins and paddings */
+body, h1, h2, h3, p, ul, li, form {
+    margin: display:flex;
+    padding: 15px 20x;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: slateblue ;
+    background-color: #f0f0f0;
+}
+
+/* Container for central alignment */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header styling */
+header {
+    background: green;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero section styling */
+.hero {
+    background: url('https://source.unsplash.com/1600x900/?nature,water') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-content {
+    background: lightgreen;
+    padding: 20px;
+    display: inline-block;
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.hero p {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+.btn {
+    background: #ff6f61;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #e55d50;
+}
+
+/* Main content styling */
+main {
+    padding: 40px 0;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    flex: 1;
+    max-width: 300px;
+}
+
+.service h3 {
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background: #ff6f61;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #e55d50;
+}
+
+/* Footer styling */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+}

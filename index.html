@@ -3,55 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soaib</title>
+    <title>Soaib1</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="head">
-        <nav>
-            <ul>
-                <li><a target="_blank" class="link-button" href="">Bangladesh Election Commission</a></li>
-                <li><a target="_blank" class="link-button" href="">Raozan Upzila Election Office</a></li>
-                <li><a target="_blank" class="link-button" href="">Raozan, Chattogram</a></li>
-            </ul>
-        </nav>
-        <h1>Mohammad Soaib</h1>
-        <p>I feel some problem. I have lost my page visible option</p>
+    <header>
+        <div class="container">
+            <h1>Mohammad Soaib</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to My Beautiful Page</h2>
+            <p>I am data entry operator of Bangladesh Election Commission</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </section>
+
     <main>
-        <section class="container">
-            <article class="blog single">
-                <h1>Simantic Blog-1</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sit architecto dignissimos esse assumenda odit perferendis voluptatibus neque laboriosam autem dolorem sint quam, magnam harum praesentium explicabo impedit iure officiis?</p>
-            </article>
-            <article class="blog area">
-                <h1>Simantic Blog-2</h1>
-                <p>Reiciendis magni laudantium vel, voluptate dolore ad eos quidem fuga unde neque eum nihil, enim quae saepe quaerat dicta eaque qui quos debitis. Mollitia accusamus enim, optio dicta esse animi!</p>
-            </article>
-            <article class="blog single">
-                <h1>Simantic Blog-3</h1>
-                    <p>Distinctio consequuntur, placeat inventore vel voluptate consequatur consectetur exercitationem asperiores labore architecto iusto quas! Accusamus adipisci perspiciatis eius ea mollitia incidunt sit beatae totam sequi vel quod, iure praesentium eum.</p>
-            </article>
+        <section id="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>I want to earn money. Thats why i am learning web development.</p>
+            </div>
         </section>
-        <section>
-            <article>
-            <div class="help">
-                <h1>My Creator Help Me</h1>
-                <p>My creator please forgive us.</p>
+
+        <section id="services">
+            <div class="container">
+                <h2>Our Services</h2>
+                <div class="services">
+                    <div class="service">
+                        <h3>Data Entry Operator</h3>
+                        <p>New Voter Photo, Finger print, Signature & Irish scan taking by BVRS software, NID Card application status checking in CMS, Voter Migration, Death Voter application creat.</p>
+                    </div>
+                    <div class="service">
+                        <h3>Upozila Election Office, Raozan, Chattogram</h3>
+                        <p>In Chattogram, Raozan Upozila is situated at Munshirhat, Fakirhat, Raozan, Chattogram.</p>
+                    </div>
+                    <div class="service">
+                        <h3>Content Creation</h3>
+                        <p>Seve Roazan Local People.</p>
+                    </div>
+                </div>
             </div>
-            <div class="help">
-                <h1>Bangladesh</h1>
-                <p>We love Bangladesh. Our creator, protect our country.</p>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>Mohammad Soaib, 01819362146, soaibur@yahoo.com</p>
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
             </div>
-            <div class="help">
-                <h1>Hathazari</h1>
-                <p>I stay at Hathazari</p>
-            </div>
-            </article>
         </section>
     </main>
+
     <footer>
-        <p>Send me an email</p>
+        <div class="container">
+            <p>&copy; 2024 My Beautiful Page. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
