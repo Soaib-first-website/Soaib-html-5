@@ -1,7 +1,7 @@
 /* Reset default margins and paddings */
 body, h1, h2, h3, p, ul, li, form {
     margin: display:flex;
-    padding: 15px 20x;
+    padding: 10px 10px;
     box-sizing: border-box;
 }
 
